@@ -44,7 +44,6 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
      color: #000;
      font-size: 12px;
@@ -62,22 +61,104 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url("https://github.com/jayverts/design-and-css-challenge-lab/blob/master/starter_code/images/header_bg.jpg?raw=true") no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 500px;
+}
+
+#firstheader {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0 0 0 40px;
+}
+
+#secondheader {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#topbutton {
+  background: yellow;
+  margin: 0 auto;
+  width: 150px;
+  display: block;
+}
+
+#benefits {
+  margin: auto 40px;
+  background-color: #f0efef;
+  font-size: 13px;
+  font-weight: 500;
+  color: #606161;
+}
+
+#thirdheader {
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;  
+}
+
+#list {
+  margin: 0 0 0 40px;
+  font-size: 13px;
+}
+
+#testamonial {
+  text-align: center;
+  background: url("https://github.com/jayverts/design-and-css-challenge-lab/blob/master/starter_code/images/testimonial_bg.jpg?raw=true") no-repeat center top rgb(134,141,157);
+  height: 300px;
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+}
+
+#quote {
+  font-style: italic;
+  padding: 30px;
+}
+
+#name {
+  font-weight: 700;
+}
+
+#signup {
+  background: yellow;
+  height: 50px;
+  padding: 15px;
+}
+
+#bottombutton {
+  background: #033048;
+  margin: 0 auto;
+  width: 150px;
+  display: block;
+  color: white;
 }
 
 footer {
-
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 9px;
+  font-weight: 500;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+#bottomheader {
+  color: yellow;
+  font-size: 24px;
+  font-weight: 900;
+}
 
+#copyright {
+  font-size: 9px;
+  font-weight: 200;
+}
 
 
 
